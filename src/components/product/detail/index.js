@@ -22,7 +22,7 @@ function index({ visible, data, handleCancel, type }) {
     <Modal
       title="Detail Product"
       visible={visible}
-      closable
+      closable={false}
       footer={
         <Space>
           <Button onClick={handleCancel}>Cancel</Button>
