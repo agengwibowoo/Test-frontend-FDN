@@ -6,7 +6,7 @@ export const GlobalContext = createContext();
 export const GlobalContextProvider = ({ children }) => {
   const userCookies = Cookies.get('user');
   const context = {
-    userCookies: userCookies ? JSON.parse(userCookies) : {}
+    userCookies: userCookies ? JSON.parse(userCookies) : null
   };
   return <GlobalContext.Provider value={context}>{children}</GlobalContext.Provider>;
 };
