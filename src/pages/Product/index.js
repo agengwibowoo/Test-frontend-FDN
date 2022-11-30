@@ -93,7 +93,16 @@ const Product = () => {
           </Button>
         </Col>
       </Row>
-      <Table dataSource={productData} loading={isProductDataLoading}>
+      <Table
+        dataSource={productData}
+        loading={isProductDataLoading}
+        onRow={(record) => {
+          return {
+            onDoubleClick: () => {
+              handleOpenDetailProduct(record, 'update');
+            }
+          };
+        }}>
         <Column title="Product Name" dataIndex="product_name" key="product_name" />
         <Column title="Memory" dataIndex="memory" key="memory" />
         <Column
