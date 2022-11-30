@@ -14,7 +14,7 @@ function index({ children }) {
   const getUsernameUrl = 'https://famous-cycles-grin-103-95-41-46.loca.lt/users';
 
   const getUserName = () => {
-    const { token } = userCookies;
+    const { token } = userCookies || {};
     axios.get(getUsernameUrl, { params: { token } }).then((res) => {
       const { data } = res;
       setUsername(data[0].first_name);
@@ -22,14 +22,13 @@ function index({ children }) {
   };
 
   useEffect(() => {
-    console.log(userCookies);
     if (!userCookies) {
       history.push('/login');
     }
   }, [userCookies]);
 
   useEffect(() => {
-    if (!username) {
+    if (username) {
       getUserName();
     }
   }, [username]);
