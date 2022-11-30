@@ -1,0 +1,13 @@
+.ant-layout-content {
+  height: 100vh;
+}
+
+.ant-layout-header {
+  background: #fff;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 200px;
+}
