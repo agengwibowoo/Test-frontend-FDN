@@ -15,6 +15,10 @@ function index({ visible, data, handleCancel, type }) {
     }
   }, [visible, data]);
 
+  const handleUpdate = (values) => {
+    console.log('form values', values);
+  };
+
   return (
     <Modal
       title="Detail Product"
@@ -23,12 +27,17 @@ function index({ visible, data, handleCancel, type }) {
       footer={
         <Space>
           <Button onClick={handleCancel}>Cancel</Button>
-          {type === 'update' && <Button type="primary">Update</Button>}
+          {type === 'update' && (
+            <Button onClick={() => form.submit()} type="primary">
+              Update
+            </Button>
+          )}
         </Space>
       }>
       <Form
         name="basic"
         form={form}
+        onFinish={handleUpdate}
         labelCol={{
           span: 8
         }}
@@ -51,12 +60,12 @@ function index({ visible, data, handleCancel, type }) {
           <Input disabled={type === 'view'} />
         </Form.Item>
         <Form.Item
-          label="Status"
-          name="status_product"
+          label="Memory"
+          name="memory"
           rules={[
             {
               required: true,
-              message: 'Please input product status!'
+              message: 'Please input memory!'
             }
           ]}>
           <Input disabled={type === 'view'} />
