@@ -1,0 +1,122 @@
+[
+    {
+      "product_name": "iphone",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 1
+    },
+    {
+      "product_name": "samsung",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 2
+    },
+    {
+      "product_name": "samsung",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 3
+    },
+    {
+      "product_name": "samsung",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 4
+    },
+    {
+      "product_name": "samsung",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 5
+    },
+    {
+      "product_name": "iphone 12",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 6
+    },
+    {
+      "product_name": "samsung 2",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 7
+    },
+    {
+      "product_name": "samsung 3",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 8
+    },
+    {
+      "product_name": "samsung 4",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 9
+    },
+    {
+      "product_name": "samsung 5",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 10
+    },
+    {
+      "product_name": "iphone 11",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 11
+    },
+    {
+      "product_name": "samsung 12",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 12
+    },
+    {
+      "product_name": "samsung 13",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 13
+    },
+    {
+      "product_name": "samsung 14",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 14
+    },
+    {
+      "product_name": "samsung 15",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 15
+    },
+    {
+      "product_name": "iphone 12",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 16
+    },
+    {
+      "product_name": "samsung 2",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 17
+    },
+    {
+      "product_name": "samsung 3",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 18
+    },
+    {
+      "product_name": "samsung 4",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 19
+    },
+    {
+      "product_name": "samsung 5",
+      "memory": "128GB",
+      "image": "https://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
+      "id": 20
+    }
+  ]
