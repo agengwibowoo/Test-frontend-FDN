@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Col, Input, Row, Space, Table } from 'antd';
+import { Button, Col, Input, Row, Space, Table } from 'antd';
 import Detail from '../../components/product/detail';
+import Add from '../../components/product/add';
 import axios from 'axios';
 
 const { Column } = Table;
@@ -10,6 +11,7 @@ const Product = () => {
   const [productData, setProductData] = useState([]);
   const [isProductDataLoading, setIsProductLoading] = useState();
   const [isModalDetailVisible, setIsModalDetailVisible] = useState(false);
+  const [isModalAddVisible, setIsModalAddVisible] = useState(false);
   const [modalDetailType, setModalDetailType] = useState();
   const [selectedProductData, setSelectedProductData] = useState();
 
@@ -72,8 +74,9 @@ const Product = () => {
         data={selectedProductData}
         type={modalDetailType}
       />
+      <Add visible={isModalAddVisible} handleCancel={() => setIsModalAddVisible(false)} />
       <Row>
-        <Col>
+        <Col span={4}>
           <Search
             placeholder="input search text"
             allowClear
@@ -83,6 +86,11 @@ const Product = () => {
               marginBottom: 8
             }}
           />
+        </Col>
+        <Col offset={16} span={4}>
+          <Button type="primary" onClick={() => setIsModalAddVisible(true)}>
+            Add New Product
+          </Button>
         </Col>
       </Row>
       <Table dataSource={productData} loading={isProductDataLoading}>
