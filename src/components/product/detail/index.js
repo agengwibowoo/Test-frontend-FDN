@@ -5,7 +5,6 @@ function index({ visible, data, handleCancel, type }) {
   const [form] = Form.useForm();
 
   const setInitialValues = (values) => {
-    console.log(values);
     form.setFieldsValue(values);
   };
 
